@@ -19,3 +19,10 @@ pub fn read_file_into_iterator(path: &str) -> io::Lines<io::BufReader<File>>{
         Err(_) => panic!("Could not find file"),
     }
 }
+
+pub fn read_file_into_buffer(path: &str) -> Vec<String> {
+    let mut file = File::open(path).unwrap();
+    let mut file_string = String::new();
+    let _ = file.read_to_string(&mut file_string);
+    file_string.split("\r\n").map(str::to_string).collect()
+}

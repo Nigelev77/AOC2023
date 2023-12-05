@@ -13,7 +13,10 @@ fn main() {
     // days::day3::part1("src/days/day3.txt");
     // days::day3::part2("src/days/day3.txt");
 
-    days::day4::part1("src/days/day4.txt");
-    days::day4::part2("src/days/day4.txt");
+    // days::day4::part1("src/days/day4.txt");
+    // days::day4::part2("src/days/day4.txt");
+
+    days::day5::part1("src/days/day5.txt");
+    days::day5::part2("src/days/day5.txt");
 
 }

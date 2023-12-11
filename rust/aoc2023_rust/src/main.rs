@@ -26,6 +26,9 @@ fn main() {
     // days::day7::part1("src/days/day7.txt");
     // days::day7::part2("src/days/day7.txt");
 
-    days::day8::part1("src/days/day8.txt");
-    days::day8::part2("src/days/day8.txt");
+    // days::day8::part1("src/days/day8.txt");
+    // days::day8::part2("src/days/day8.txt");
+
+    days::day9::part1("src/days/day9.txt");
+    days::day9::part2("src/days/day9.txt");
 }

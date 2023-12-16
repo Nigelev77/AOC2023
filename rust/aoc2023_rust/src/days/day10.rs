@@ -3,6 +3,9 @@ use std::collections::{HashMap, HashSet};
 use crate::util::common_file;
 use lazy_static::lazy_static;
 
+// ! FIND A BETTER WAY TO DO PART 2
+//TODO: FIND A BETTER WAY TO DO PART 2
+
 lazy_static! {
     static ref ACTIONS: HashMap<(char, Direction), Direction> = HashMap::from([
         (('-', Direction::RIGHT), Direction::RIGHT),
